@@ -7,7 +7,7 @@ import workHIre from "../assets/work-hire.svg";
 
 export default function WorksSection() {
   return (
-    <section className="py-20 mb-32">
+    <section className="py-20 lg:mb-32 md:mb-24">
       <div className="container mx-auto text-center">
         <Title>How it works</Title>
         <div className="flex flex-wrap pt-10 gap-5 justify-center">

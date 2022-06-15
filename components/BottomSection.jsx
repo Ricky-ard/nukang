@@ -5,13 +5,13 @@ import Image from "next/image";
 
 export default function BottomSection() {
   return (
-    <section className="py-10 px-20">
+    <section className="lg:px-32 md:px-20">
       <div className="container mx-auto flex gap-5">
-        <div className="w-8/12 my-auto">
-          <h1 className="font-bold text-6xl pb-2 ">
+        <div className="w-8/12 ">
+          <h1 className="font-bold lg:text-5xl md:text-2xl pb-2 ">
             Apakah kamu Seorang Tukang, Konsultan, atau Kontraktor ?
           </h1>
-          <p className="font-medium leading-relaxed w-3/4 mb-10">
+          <p className="font-medium leading-relaxed w-3/4 lg:mb-10 md:mb-5 lg:text-lg md:text-base ">
             Gabung menjadi mitra nukang hub indonesia, mari bertumbuh dan
             berkembang menjadi besar bersama.
           </p>

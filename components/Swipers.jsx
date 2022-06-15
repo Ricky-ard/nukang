@@ -9,9 +9,9 @@ import Title from "./Title";
 export default function Swipers() {
   return (
     <>
-      <section>
+      <section className="px-36">
         <div className="container mx-auto mt-20  ">
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between mb-10">
             <Title>Interior & Exterior</Title>
             <Button variant="outline-blue" className="font-medium">
               Daftar Mitra

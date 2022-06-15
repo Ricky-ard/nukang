@@ -13,9 +13,9 @@ import ic_whatsapp from "../assets/ic-whatsapp.svg";
 export default function FooterSection() {
   return (
     <section className="py-5 bg-gray-100">
-      <div className="container py-24 gap-x-24 flex mx-auto">
-        <div className="w-5/12 flex flex-col items-start px-10 gap-3 ">
-          <Image src={logo} alt="logo" width="300px" height="100" />
+      <div className="container lg:px-24 md:px-10 lg:gap-x-24 md:gap-4 flex mx-auto">
+        <div className="w-4/12 flex flex-col items-start lg:px-20 md:px-3 mt-5 gap-3 ">
+          <Image src={logo} alt="logo" width="200px" height="60" />
           <Image src={googleplay} alt="logo" width="159px" />
           <Image src={appstore} alt="logo" width="159px" />
         </div>
@@ -28,7 +28,7 @@ export default function FooterSection() {
             <FooterItem>Press</FooterItem>
           </ul>
         </div>
-        <div className="w-2/12 gap-y-24 text-2xl font-bold mt-5">
+        <div className="w-3/12 gap-y-24 text-2xl font-bold mt-5">
           <h1 className="mb-5">Customer</h1>
           <ul>
             <FooterItem>cara kerja nukang</FooterItem>
