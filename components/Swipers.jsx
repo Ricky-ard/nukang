@@ -9,7 +9,7 @@ import Title from "./Title";
 export default function Swipers() {
   return (
     <>
-      <section className="px-36">
+      <section className="lg:px-36 md:px-20 px-5">
         <div className="container mx-auto mt-20  ">
           <div className="flex items-center justify-between mb-10">
             <Title>Interior & Exterior</Title>
