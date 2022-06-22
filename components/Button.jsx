@@ -4,7 +4,7 @@ export default function Button({ className, variant, children }) {
   const addClassName = className ? ` ${className}` : "";
 
   const variants = {
-    "outline-blue": `text-primary-blue border border-primary-blue`,
+    "outline-blue": `text-primary-blue border border-primary-blue hover:text-white hover:bg-primary-blue duration-300 ease-in-out`,
     blue: "text-white bg-primary-blue",
   };
 
@@ -12,7 +12,8 @@ export default function Button({ className, variant, children }) {
 
   return (
     <a
-      className={`px-5 py-3 rounded-md text-xs ${pickedVariant}${addClassName}`}
+      href="#"
+      className={`px-5 py-3 rounded-md text-xs   ${pickedVariant} ${addClassName}`}
     >
       {children}
     </a>
