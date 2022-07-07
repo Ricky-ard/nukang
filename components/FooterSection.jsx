@@ -14,10 +14,12 @@ export default function FooterSection() {
   return (
     <section className="py-5 px-5 bg-gray-100">
       <div className="container lg:px-24 md:px-10 lg:gap-x-24 md:gap-4 flex flex-wrap md:flex-nowrap mx-auto text-center md:text-left">
-        <div className=" w-full md:w-4/12 flex flex-col items-start lg:px-20 md:px-3 mt-5 gap-3">
+        <div className=" w-full md:w-4/12 flex flex-col items-center md:items-start lg:px-20 md:px-3 mt-5 gap-3">
           <Image src={logo} alt="logo" width="200px" height="60" />
-          <Image src={googleplay} alt="logo" width="159px" />
-          <Image src={appstore} alt="logo" width="159px" />
+          <div className="w-full flex justify-around md:flex-wrap">
+            <Image src={googleplay} alt="logo" width="159px" />
+            <Image src={appstore} alt="logo" width="159px" />
+          </div>
         </div>
         <div className="w-full md:w-2/12 gap-y-24 text-2xl font-bold mt-5">
           <h1 className="md:mb-5 mb-1">About us</h1>
