@@ -1,10 +1,13 @@
 import React from "react";
 
-export default function NavItem({ children }) {
+export default function NavItem({ children, href }) {
   return (
     <div>
       <li>
-        <a className="text-secondary-dark font-Work-sans font-medium text-xl ">
+        <a
+          href={href}
+          className="text-secondary-dark font-Work-sans font-medium text-xl "
+        >
           {children}
         </a>
       </li>
