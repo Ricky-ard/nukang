@@ -5,7 +5,7 @@ export default function Button({ className, variant, children }) {
 
   const variants = {
     "outline-blue": `text-primary-blue border border-primary-blue hover:text-white hover:bg-primary-blue ease-in-out `,
-    blue: "text-white bg-primary-blue  hover:bg-sky-600  ease-in-out",
+    blue: "text-white bg-primary-blue hover:bg-sky-600 ease-in-out ",
   };
 
   const pickedVariant = variants[variant];
