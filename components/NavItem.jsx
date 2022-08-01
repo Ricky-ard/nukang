@@ -6,7 +6,7 @@ export default function NavItem({ children, href }) {
       <li>
         <a
           href={href}
-          className="text-secondary-dark font-Work-sans font-medium text-xl "
+          className="text-secondary-dark font-Work-sans font-medium text-xl hover:text-primary-blue"
         >
           {children}
         </a>

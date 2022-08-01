@@ -11,10 +11,12 @@ export default function Nav() {
   const [offcanvas, setOffcanvas] = useState(false);
   return (
     <>
-      <div className=" bg-white w-full pb-2 lg:px-36 sticky top-0 z-30 ">
+      <div className=" bg-white w-full pb-2 lg:px-36 sticky top-0 z-30 transition-all">
         <div className="container mx-auto mt-5 ">
           <div className="flex items-center justify-between">
-            <Image src={logo} alt="logo" width="223px" height="62" />
+            <a href="#">
+              <Image src={logo} alt="logo" width="223px" height="62" />
+            </a>
             <div className="lg:w-6/12 hidden md:block">
               <NavTitle direction="horizontal" />
             </div>

@@ -13,9 +13,9 @@ export default function NavTitle({ direction }) {
 
   return (
     <ul className={classnames("flex", pickedDirection)}>
-      <NavItem>Service</NavItem>
-      <NavItem>Discover</NavItem>
-      <NavItem>Cara Kerja</NavItem>
+      <NavItem href="#">Service</NavItem>
+      <NavItem href="#">Discover</NavItem>
+      <NavItem href="#">Cara Kerja</NavItem>
       <li>
         <Button variant="outline-blue" className="font-bold">
           Daftar Mitra
